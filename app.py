@@ -23,7 +23,7 @@ warnings.filterwarnings('ignore')
 
 # ── 1. LOAD DATA ──────────────────────────────────────────────────────────────
 
-df = pd.read_csv('/content/brake_failure_dataset_custom.csv')
+df = pd.read_csv('brake_failure_dataset_custom.csv')
 
 print("=" * 55)
 print("  BRAKE FAILURE PREDICTION — ML PIPELINE")
